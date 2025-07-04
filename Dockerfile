@@ -27,9 +27,7 @@ RUN pip3 install --no-cache-dir \
 # Create verification script
 RUN cat > /usr/local/bin/verify-gpu.py << 'EOF'
 #!/usr/bin/env python3
-"""
-GPU Verification Script for Docker Containers
-"""
+# GPU Verification Script for Docker Containers
 import subprocess
 import sys
 import os
